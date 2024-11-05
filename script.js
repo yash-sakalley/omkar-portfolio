@@ -23,8 +23,12 @@ function addRecommendation() {
 
 function showPopup(bool) {
   if (bool) {
-    document.getElementById('popup').style.visibility = 'visible'
+    document.getElementById('popup').style.visibility = 'visible';
+    document.getElementById('popup').style.backgroundColor = '#D4EDFF';
+    document.getElementById('popup').style.padding = '20px';
+    document.getElementById('popup').style.borderRadius = '8px';
+    document.getElementById('popup').style.textAlign = 'center';
   } else {
-    document.getElementById('popup').style.visibility = 'hidden'
+    document.getElementById('popup').style.visibility = 'hidden';
   }
 }
