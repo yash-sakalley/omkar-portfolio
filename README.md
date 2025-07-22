@@ -1,1 +1,1 @@
-updated readme for sync testing7
+updated readme for sync testing8
